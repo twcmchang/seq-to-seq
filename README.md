@@ -1,4 +1,3 @@
-
 # Quick start
 - This is the implementation of "Sequence-to-Sequence: Video to Text" in TensorFlow
 - To demonstrate the results, there are two videos and the corresponding features in data/testing_data/
@@ -19,9 +18,6 @@ If you would like to evaluate the BLUE of the generated captions:
 ```
 python3 eval.py --result_file output.json
 ```
-
-
-
 
 # (1) Train (not support now)
 Put training data into data/.
@@ -68,5 +64,5 @@ python eval.py --result_file "your_output_json" --test_label_json "your_answer_j
 Current best average BLEU score: 0.274922 after 1000 epochs
 
 ### Requirement
-- Download [dataset][dataset] and unzip it into hw2/
-- Tensorflow r1.0+
+- tensorflow r1.0+
+- numpy
